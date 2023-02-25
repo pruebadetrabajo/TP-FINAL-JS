@@ -1,0 +1,46 @@
+body {
+  
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#cabecera{
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid rgb(251, 222, 251);
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px rgb(165, 157, 165);
+}
+body #contenedor #main #mainDer {
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid rgb(251, 222, 251);
+  border-radius: 3px;
+  height: 200px;
+  box-shadow: 2px 2px 5px rgb(165, 157, 165);
+  width: 50%;
+}
+
+#logueo,#destello,#registro,#precioBTC,#header,#dataUsuario,#dejarColateral,#inserteCantPres,#pedistePrestado {
+  border: solid 1px gray;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin: 10px;
+  box-shadow: 2px 2px 5px rgb(165, 157, 165);
+}
+/*# sourceMappingURL=archivo.css.map */
+#destello{
+  
+  background-color: #fff;
+ 
+  transition: background-color 0.5s ease-in-out;
+}
+.verde {
+  background-color: green;
+  /* Cambiar el color de fondo a verde */
+}
+
+.fade-out {
+  background-color: #fff;
+  /* Cambiar gradualmente el color de fondo a blanco */
+  transition: background-color 0.5s ease-in-out;
+}
