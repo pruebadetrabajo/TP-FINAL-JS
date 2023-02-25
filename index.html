@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prestamos colateralizados en BTC</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link href="css/archivo.css" rel="stylesheet" type="text/css">
+</head> 
+<body>
+    <div id="cabecera">
+        Bienvenido a la plataforma de prestamos colateralizados en BTC.
+        Usted podrá pedir un prestamo dejando su BTC como garantía.        
+    </div>
+    <div id="logueoRegistro">
+        <div id="logueo">
+            Inicio de sesion <br> <span id="no" style="color: red"></span><br>
+            Nombre de usuario <input type="text" id="nombreUsuario"> - Contraseña <input type="password" id="contrasena">  
+            <input type="button" id="ingresar" value="Ingresar"><br>
+        </div>
+        <div id="registro">
+            Crear nuevo usuario <br><br>
+            Nombre de usuario <input type="text" id="nuevoNombredeUsuario"> - Contraseña <input type="password" id="nuevaContrasena"> <input type="button" id="crearUsuario" value="Crear nuevo usuario"><br> <br>
+        </div>
+    </div>
+    
+    <div id="main">
+        
+        <div id="izq">
+
+        </div>
+        <div id="der">
+
+        </div>
+    </div>
+    <div id="dejarColateral" style="display: none;">
+        <p>Inserte la cantidad de BTC que va a dejar de colateral para sacar un prestamo:</p>
+        <input type="text" id="cantidadDeBTC" class=""/>
+        <input type="button" value="Dejar BTC de colateral" class="" id="recibirColateral"><br>
+        <div id="validarNumero" class="hide" style="color: red"></div>
+        <p id="hide">Usted ha dejado <span id="cantidadBTC" class="">0 BTC nuevo como colateral</span></p>
+    </div>
+    <div id="dashboard">
+        <span id="usuariosActivos"></span></p>
+    </div>
+    <div id="pedirPrestamo">
+    </div>
+    <div id="pedidoPrestamo" >
+    </div>
+    <div id="validarNumero2" ></div>
+    <button onclick="location.reload()" id="logout" style="display: none;">Logout</button>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="js/js.js"></script> 
+</body>
+</html>
